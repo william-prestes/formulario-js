@@ -1,0 +1,82 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url(../images/bg-repeat.jpg);
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.texto .titulo{
+    font-weight: 900;
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+.texto .paragrafo{
+    font-weight: 400;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.container-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 520px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.container-formulario .validacao{
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    opacity: 0;
+    color: #F52E2E;
+}
+
+.container-formulario form{
+    width: 90%;
+}
+
+.container-formulario form .campos{
+    width: 99%;
+    padding: 8px 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 1px solid #000;
+    border-radius: 8px;
+    resize: none;
+}
+
+.container-formulario form .campo-preenchido{
+    border: 1px solid #00C22B;
+}
+
+.container-formulario form .campo-nao-preenchido{
+    border: 1px solid #F52E2E;
+}
+
+.container-formulario .info{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.container-formulario #btn{
+    width: 99%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: #3CCC87;
+}
